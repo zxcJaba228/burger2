@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    background: #000;
+    min-width: 320px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logotip {
+    width: 154px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    background: #4e9f0d;
+    border: 3px solid #62be19;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 3px #468f0c;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+    padding-left: 8px;
+    padding-right: 6px;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul a {
+    font-size: 20px;
+    color: #62be19;
+    padding: 37px 11px 29px 10px;
+    display: flex;
+    transition: 0.5s;
+}
+
+header nav ul a:hover {
+    background: #509d13;
+    color: #fff;
+}
+
+header nav ul span {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+
+header nav ul a:hover span {
+    color: #468f0c
+}
+
+header {
+    background: url(../img/burger_fon.jpg)no-repeat center/cover;
+}
+
+header .text {
+    padding-top: 167px;
+    padding-bottom: 152px;
+}
+
+header .text h1 {
+    font-size: 72px;
+    color: #62be19;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+header .text h2 {
+    font-size: 36px;
+    color: #62be19;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+
+header .text p {
+    font-size: 20px;
+    color: #e13d3d;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+header .text h3 {
+    font-size: 60px;
+    color: #fff;
+    padding: 25px 0;
+    background: #61cf1791;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.burger {
+    padding-top: 52px;
+    padding-bottom: 103px;
+}
+
+.burger ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burger ul a {
+    font-size: 20px;
+    color: #7a7a7a;
+    margin-right: 47px;
+}
+
+.burger ul a:hover {
+    color: #62be19;
+}
+
+.burger .burger2 {
+    width: 100%;
+}
+
+.burger .burger2 .fotki {
+    position: relative;
+}
+
+.burger .burger2 .fotki img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.burger .burger2 .fotki strong {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 187px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6acf17ad;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.burger .burger2 .fotki span {
+    font-size: 0;
+    transition: 0.5s;
+}
+
+.burger .burger2 h4 {
+    font-size: 24px;
+    color: #69cf17;
+    text-transform: uppercase;
+    margin-top: 37px;
+}
+
+.burger .burger2 p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 19px;
+}
+
+.burger .burger2:hover strong {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+.burger .burger2:hover span {
+    font-size: 24px;
+}
+
+.burger .grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 69px;
+}
+
+.fon {
+    align-items: center;
+    background: url(../img/section_bg.png) no-repeat center/cover;
+}
+
+.fon h1 {
+    color: #69cf17;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fon h1::after {
+    display: flex;
+    content: '';
+    width: 150px;
+    height: 5px;
+    background: #468f0c;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.fon p {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 50px;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fon .texta {
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+
+.font {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 1px 50px 0px;
+    font-size: 36px;
+}
+
+.polo div {
+    background: url(../img/foto.jpg)
+}
+
+.font div h1 {
+    color: #62be19;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.end3 .logotip {
+    width: 154px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    background: #4e9f0d;
+    border: 3px solid #62be19;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 3px #468f0c;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+    padding-left: 8px;
+    padding-right: 6px;
+    text-transform: uppercase;
+}
+
+.end .end3 .text1 li a {
+    color: #4e9f0d;
+    font-size: 22px;
+}
+
+.end .end3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end3 {
+    padding: 30px 0px 35px 0px;
+}
+
+.end4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.end4 a {
+    padding: 0px 15px 0px 0px;
+    color: #fff;
+}
+
+.container .textx {
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+}
+
+.end4 a:hover {
+    color: #509d13;
+}
+
+.font div h1{
+    font-size: 44px;
+}
